@@ -11,11 +11,13 @@ import authRoutes from "./routes/auth.js";
 import { fileURLToPath } from "url";
 import userRoutes from "./routes/users.js"
 import { register } from './controllers/auth.js';
-import postRoutes from "./route/posts.js";
+import postRoutes from "./routes/posts.js";
 import {createPost} from "./controllers/posts.js";
 import {verifyToken} from "./middleware/auth.js";
 /*configurations*/
 
+
+/* AT 1:15:13*/
 /*these are for modules*/
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
